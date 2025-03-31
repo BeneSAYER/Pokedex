@@ -1,15 +1,16 @@
+import "./App.css";
 
-import "./PokemonCard.tsx";
+import MyTitle from "./components/MyTitle";
 
-import Bulbasaur from "./components/PokemonCard.tsx";
+function App() {
+    return (
+        <section>
+            <MyTitle />
+        </section>
+    );
+}
 
-
-
-
-<div>components/PokemonCards</div>
-
-export default ()
-
+export default App;
 
 
 
