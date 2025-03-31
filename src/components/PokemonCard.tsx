@@ -1,11 +1,15 @@
-function PokemonCard() {
-    return <figure>
-        <img src='{‘image-bulbasaur.png alt={Bulbasaur} />
-
-  
-    <figcaption>"Bulbasaur"</figcaption>
+function App() {
+  return (
+    <figure>
+      <img>
+        src : https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png
+      </img>
+      <figcaption>
+        <Bulbasaur />
+      </figcaption>
+    </figure>;
+  );
 }
-  </figure>;
-export default PokemonCard;
+export default App;
 
 
