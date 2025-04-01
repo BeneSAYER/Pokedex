@@ -1,4 +1,4 @@
-function App() {
+function PokemonCard() {
   return (
     <figure>
       <img>
@@ -10,6 +10,6 @@ function App() {
     </figure>;
   );
 }
-export default App;
+export default PokemonCard;
 
 
