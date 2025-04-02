@@ -1,11 +1,15 @@
 
 
-function PokemonCard(pokemon) {
+function ImgPokemon({ imgSrc }: { imgSrc?: string }) {
+  return imgSrc ? <img src={imgSrc} alt="img pokemon" /> : <p>???</p>;
+}
 
+function PokemonCard({ pokemon }) {
   return (
     <article>
+      <ImgPokemon imgSrc={pokemon.imgSrc} />
       <h1>{pokemon.name}</h1>
-      {pokemon.imgSrc ? <img src={pokemon.imgSrc} alt={pokemon.name} /> : <p>???</p>}
+
     </article>
   );
 }
